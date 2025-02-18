@@ -1,6 +1,6 @@
 {
-    "m3uurl": "http://<SERVICE_DOMAIN>?username=<USERNAME>&password=<PASSWORD>",
-    "epgurl": "http:/<SERVICE_DOMAIN>/xmltv_epg.gz",
+    "m3uurl": "http://4kliveiptv.net:25461/get.php?username=Chip4535&password=Chip4444&type=m3u_plus&output=ts",
+    "epgurl": "https://www.open-epg.com/generate/kvkCReC9Fn.xml.gz",
     "request_headers": [
         { "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" },
         { "Accept-Language": "en-US,en;q=0.9" },
@@ -47,7 +47,7 @@
     "no_epg": false,
     "force_epg": false,
     "no_sort": false,
-    "outdirectory": "/home/target_directory",
+    "outdirectory": "/Users/fhoubie/dev/perso/iptv/m3u-epg-editor/output/",
     "outfilename": "output_file",
     "log_enabled": true
 }
